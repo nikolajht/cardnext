@@ -9,7 +9,10 @@ const Page = ()=> {
     const id = searchParams.get('id');
 
     return(
-        <>{id}</>
+        <>
+            <div>{id}</div>
+            <div> more info</div>
+        </>
     )
 }
 

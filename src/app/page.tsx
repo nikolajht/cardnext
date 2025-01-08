@@ -1,18 +1,18 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
+import cardstyle from "./page.module.scss"
 
 export default function Home() {
+
   return (
-    <div>
-      
-      <Link href= {{
+    <main>
 
-        pathname:'/moreinfo',
-        query:{id:1}
+      <section id={cardstyle.cardContainer}>
+        <div id={cardstyle.card}></div>
+      </section>
 
-      }}>more info</Link>
-
-    </div>
+    </main>
   );
+
 }
